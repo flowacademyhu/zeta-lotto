@@ -8,3 +8,5 @@ const colorize = (num) => {
 
 console.log(colorize(6));
 console.log(colorize(5));
+
+module.exports = colorize;
