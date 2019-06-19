@@ -13,4 +13,4 @@ const array = (n) => {
 
 console.log(array(6));
 
-module.exports.array = array;
+module.exports = array;
