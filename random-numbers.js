@@ -1,4 +1,4 @@
-const szam = (n) => {
+const array = (n) => {
   let result = [];
   while (result.length < n) {
     for (let i = 0; i < n; i++) {
@@ -11,4 +11,6 @@ const szam = (n) => {
   return result;
 };
 
-console.log(szam(6));
+console.log(array(6));
+
+module.exports.array = array;
