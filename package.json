@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/flowacademyhu/zeta-lotto/issues"
   },
-  "homepage": "https://github.com/flowacademyhu/zeta-lotto#readme"
+  "homepage": "https://github.com/flowacademyhu/zeta-lotto#readme",
+  "dependencies": {
+    "table": "^5.4.1"
+  }
 }
