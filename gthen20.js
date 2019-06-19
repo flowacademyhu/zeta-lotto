@@ -1,12 +1,10 @@
-const greatertherthenTwenty = (szam) => {
+const greatertherthenTwenty = (szam, str) => {
   if (szam > 20) {
-    szam = '< ' + szam + ' >';
+    str = '< ' + str + ' >';
   }
 
-  return szam;
+  return str;
 };
-let szam = 5;
-console.log(greatertherthenTwenty(szam));
 
 module.exports = { greatertherthenTwenty }
 ;

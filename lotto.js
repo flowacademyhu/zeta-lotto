@@ -1,13 +1,11 @@
-const szamzarojelbe = (szam) => {
-    
-    if (szam > 10) {
-        szam = ('[' + szam + ']');
-    } 
+const szamzarojelbe = (szam, str) => {
+  if (szam > 10) {
+    str = ('[' + str + ']');
+  }
 
-    return szam;
+  return str;
 };
 
-console.log(szamzarojelbe(1));
 module.exports = {
-    szamzarojelbe
+  szamzarojelbe
 };

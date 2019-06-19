@@ -11,6 +11,4 @@ const array = (n) => {
   return result;
 };
 
-console.log(array(6));
-
 module.exports = array;

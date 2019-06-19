@@ -1,13 +1,10 @@
 
 const oddEven = (number) => {
-  let a = 0;
-
   if (number % 2 === 0) {
-    a = number & 0x239b56;
+    console.log('even');
   } else {
-    a = number & 0xc0392b;
+    console.log('odd');
   }
   return number;
 };
-
-console.log(oddEven(5));
+module.exports = oddEven;
